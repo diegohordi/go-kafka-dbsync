@@ -1,0 +1,10 @@
+{
+  "db": {
+    "dsn": "admin:admin@tcp(localhost:3307)/sakila"
+  },
+  "kafka": {
+    "dsn": "localhost:29092",
+    "topic": "catalogue",
+    "partition": 0
+  }
+}

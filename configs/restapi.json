@@ -1,0 +1,13 @@
+{
+  "app": {
+    "port": 8080
+  },
+  "db": {
+    "dsn": "admin:admin@tcp(localhost:3308)/catalogue"
+  },
+  "kafka": {
+    "dsn": "localhost:29092",
+    "topic": "catalogue",
+    "partition": 0
+  }
+}
